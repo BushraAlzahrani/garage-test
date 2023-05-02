@@ -26,12 +26,12 @@ class AppRoutes {
     return "/";
   }
 
-  getExamplePagePath():string{
-    return `/address/:addressId/view`;
+  getStartUpPagePath():string{
+    return `/startup`;
   }
 
   getExamplePageUrl():string{
-    return this.getExamplePagePath();
+    return this.getStartUpPagePath();
   }
 
   // Example on a path with dynamic variables

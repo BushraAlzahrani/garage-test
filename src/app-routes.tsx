@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import { appRoutesObj } from "./app.paths";
 
-const ExamplePage = React.lazy(() => import('./pages/user/example-page'));
+const StartUpPage = React.lazy(() => import('./pages/dashboard/startup-page'));
 const NotFoundPage = React.lazy(() => import('./pages/404'));
 
 const withSuspense = (WrappedComponent: JSX.Element) => {
@@ -39,9 +39,9 @@ export function AppRouting() {
             />
             
             <Route
-              key="examplePage"
-              path={appRoutesObj.getExamplePagePath()}
-              element={withSuspense(<ExamplePage />)}
+              key="StartUpPage"
+              path={appRoutesObj.getStartUpPagePath()}
+              element={withSuspense(<StartUpPage />)}
             />
 
             

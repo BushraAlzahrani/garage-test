@@ -5,6 +5,10 @@ module.exports = {
    ],
   theme: {
     extend: {},
+    fontFamily: {
+      en: "'Typewriter-Regular'",
+      ar: "'ArbFONTS-Bold'",
+    },
   },
   plugins: [],
 }
