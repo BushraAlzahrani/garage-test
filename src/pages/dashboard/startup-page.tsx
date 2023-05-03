@@ -3,7 +3,7 @@ import AboutProjectContainer from 'src/containers/dashboard/startUp/about-projec
 
 function StartUpPage() {
   return (
-    <div className=' bg-[#EFEFEF] pt-60 p-52 '>
+    <div className=' bg-pageGray pt-60 p-52 '>
     
 
     <AboutProjectContainer/>

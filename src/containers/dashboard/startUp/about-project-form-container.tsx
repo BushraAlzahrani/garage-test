@@ -6,7 +6,7 @@ import TextfieldComp from 'src/components/common/textfield-comp'
 
 function AboutProjectFormContainer() {
     return (
-        <div className='bg-white pt-12 pb-12 w-[1120px] rounded-lg '>
+        <div className='bg-white pt-12 pb-12 w-[1120px] rounded-lg font-cairo '>
 
       <div className='mr-60 ml-60'>
       <div className='text-9 font-bold pb-4'>
